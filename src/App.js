@@ -1,0 +1,21 @@
+
+import './App.css';
+import React from 'react';
+
+import ColorPicker from './components/ColorPicker';
+
+
+function App() {
+
+  return (
+    <>
+     
+      <div className="App">
+        <ColorPicker colors={['red', 'green', 'blue', 'yellow', 'orchid', 'aqua', 'orange', 'purple', 'pink', 'darkgreen', 'peru', 'deepskyblue', 'saddlebrown', 'chocolate', 'royalblue', 'gold']} />
+      </div>
+    </>
+
+  );
+}
+
+export default App;
